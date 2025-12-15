@@ -63,6 +63,9 @@ const PhoneUI = () => {
                 </div>
             </div>
 
+            {/* <h4>Quick Actions</h4> */}
+            <p>Tem</p>
+
 
         </div>
     )
