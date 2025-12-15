@@ -4,7 +4,7 @@
     border: 12px solid black;
     border-radius: 50px;
     margin: auto;
-    background-color: #F5FAF4;
+    background-color: #EEF2EE;
 }
 
 .layer1 {
@@ -71,7 +71,11 @@
     font-weight: 800;
 }
 
-.bar-left span {
+.bar-left {
+    position: relative;
+}
+
+.bar-left-main {
     background-color: #E9F2E8;
     padding: 5px;
     border-radius: 50%;
@@ -81,16 +85,103 @@
     justify-content: center;
     align-items: center;
     color: #80867F;
+    position: relative;
+}
+
+.red-dot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #D11416;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #D11416;
 }
 
 .check {
-    /* background-color: #5054E7;
-    padding: 3px;
-    color: #5054E7;
-    border-radius: 50%; */
     color: #5054E7;
     border: 1px solid white;
 }
 
+/* layer 2 */
+.layer2 {
+    /* display: flex;
+    flex-direction: column;
+    padding: 10px; */
+    padding: 10px;
+}
 
+.layer2main {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
 
+.layer2main2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card1 {
+    width: 200px;
+    height: 90px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    line-height: 1; 
+}
+
+.card1 p {
+    font-size: 15px;
+}
+
+.card1 h2 {
+    font-size: 20px;
+}
+
+.card1 span {
+    font-size: 18px;
+}
+
+.c1 {
+    background-color: #B0F3B0;
+    padding: 5px;
+    border-radius: 40%;
+    text-align: center;
+    font-size: 20px;
+    color: #10E010;
+    align-content: center;
+}
+
+.c2 {
+    background-color: #E9F2E8;
+    padding: 5px;
+    border-radius: 40%;
+    text-align: center;
+    font-size: 20px;
+    color: #80867F;
+    align-content: center;
+}
+
+.c3 {
+    background-color: #E9F2E8;
+    padding: 5px;
+    border-radius: 40%;
+    text-align: center;
+    font-size: 20px;
+    color: #80867F;
+    align-content: center;
+}
+
+.c4 {
+    background-color: #E9F2E8;
+    padding: 5px;
+    border-radius: 40%;
+    text-align: center;
+    font-size: 20px;
+    color: #80867F;
+    align-content: center;
+}
