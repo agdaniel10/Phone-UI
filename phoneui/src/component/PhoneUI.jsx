@@ -1,4 +1,7 @@
 import "./phoneUI.css"
+import img1 from "../assets/grok1.jpg"
+import img2 from "../assets/grok2.jpg"
+
 const PhoneUI = () => {
 
     return (
@@ -63,9 +66,40 @@ const PhoneUI = () => {
                 </div>
             </div>
 
-            {/* <h4>Quick Actions</h4> */}
-            <p>Tem</p>
+            <h4 className="qa">Quick Actions</h4>
 
+            <div className="img-dv">
+                <img src={img2} alt="img2" />
+                <img src={img1} alt="img1" />
+            </div>
+
+            <div className="gv">
+                <h4>Gift cards</h4>
+                <a href="#">View all</a>
+            </div>
+
+            <div className="sec-class">
+                <div className="cardv">
+                    <span><ion-icon name="logo-amazon"></ion-icon></span>
+                    <p>Amazon</p>
+                    <h5>N 1,460.00</h5>
+                    <p>USD</p>
+                </div>
+
+                <div className="cardv">
+                    <span><ion-icon name="logo-apple"></ion-icon></span>
+                    <p>iPhone</p>
+                    <h5>N 1,394.09</h5>
+                    <p>CAD</p>
+                </div>
+
+                <div className="cardv">
+                    <span><ion-icon name="logo-codepen"></ion-icon></span>
+                    <p>Amazon</p>
+                    <h5>N 1,000.00</h5>
+                    <p>GBP</p>
+                </div>
+            </div>
 
         </div>
     )
