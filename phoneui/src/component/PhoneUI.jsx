@@ -101,6 +101,32 @@ const PhoneUI = () => {
                 </div>
             </div>
 
+            <div className="lastdiv">
+                <div className="tem">
+                    <span className="h"><ion-icon name="home-outline"></ion-icon></span>
+                    <p className="hm">Home</p>
+                </div>
+
+                <div className="tem">
+                    <span><ion-icon name="pie-chart-outline"></ion-icon></span>
+                    <p>Crypto</p>
+                </div>
+
+                <div className="tem">
+                    <span><ion-icon name="card-outline"></ion-icon></span>
+                    <p>Giftcard</p>
+                </div>
+
+                <div className="tem">
+                    <span><ion-icon name="wallet-outline"></ion-icon></span>
+                    <p>Wallet</p>
+                </div>
+
+                <div className="tem">
+                    <span><ion-icon name="person-outline"></ion-icon></span>
+                    <p>Profile</p>
+                </div>
+            </div>
         </div>
     )
 }
